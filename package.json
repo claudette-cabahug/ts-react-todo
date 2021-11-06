@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"tsc -w\" \"nodemon dist/js/app.js\""
+    "dev": "concurrently \"tsc -w\" \"nodemon dist/js/app.js\"",
+    "start": "node dist/js/app.js"
   },
   "keywords": [],
   "author": "",
