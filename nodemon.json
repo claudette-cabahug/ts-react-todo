@@ -1,0 +1,8 @@
+{
+    "env": {
+        "MONGO_USER": "ts-react-todo-user",
+        "MONGO_PASSWORD": "ts-react-todo-pass",
+        "MONGO_DB": "ts-react-todo-db",
+        "MONGO_SERVER": "mongo:27017"
+    }
+}
